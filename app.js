@@ -43,7 +43,7 @@ app.post("/", (req, res) => {
     //Options added as required for authorisation
     const options = {
         method: "POST",
-        auth: "Arkodeep73:177c773fb8fe428a839cb01d0f020c0a-us14"
+        auth: "Arkodeep73:f06f36a82b1807126ec44b56efbd9e7c-us14"
     }
 
     //http request needed as we need to send the String to the API
@@ -93,6 +93,5 @@ app.listen(process.env.PORT || 3000, () => {
 
 
 
-///Mailchimp Api key : 177c773fb8fe428a839cb01d0f020c0a-us14
-
+///Mailchimp Api key : f06f36a82b1807126ec44b56efbd9e7c-us14
 //Mailchimp Audience ID: 784fee23e8
